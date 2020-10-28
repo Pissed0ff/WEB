@@ -1,0 +1,109 @@
+* 
+{
+	margin:0px;	
+}
+
+h2,h3
+{
+    color:  #8a9599;
+    margin-bottom: 20px;
+}
+
+h1
+{
+    color:#f8fbff;
+    text-align: center;
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+h2
+{
+  width: 70%;  
+    padding-bottom: 30px;
+    border-bottom: solid 3px;
+    border-bottom-color: #8a9599; 
+}
+
+h3
+{
+    text-transform: uppercase;
+}
+p
+{
+    color:#f8fbff;
+    margin-bottom: 20px;
+    font-size: 22px;  
+}
+
+/* autor */
+.autor
+{
+    padding: 50px 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 70px;
+}
+
+.autor img
+{
+    width: 128px;
+    height: 128px;
+}
+
+/* content */
+.content
+{
+    height: auto;
+    width: 100%;
+    background: linear-gradient(to bottom right ,#1f2535,#3c4f6d);
+    padding-bottom: 50px;
+}
+
+.container
+{
+    height: inherit;
+    width: 900px;
+    margin: 0 auto;
+}
+
+/* image */
+
+.image
+{
+    height: 700px;
+    width: auto;
+    background: url(images/soccer.jpeg) no-repeat center;
+    background-size: cover;
+    position: relative;
+}
+
+.image p
+{
+    height:auto;
+    width: 400px;
+    color: black;
+    padding: 10px 20px;
+    background: white;
+    opacity: 0.6;  
+    position: absolute;
+    bottom: 0;
+    left:+20px;
+    font-style: italic;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
