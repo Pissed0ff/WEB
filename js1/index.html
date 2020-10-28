@@ -1,0 +1,113 @@
+<html>
+    
+    
+<style type="text/css">
+   .btn
+    {
+        text-align: right;
+        
+        padding: 15px 15px 15px 25px;
+        border-radius: 10px;
+        margin: 5px;
+
+        background-image: url(count.png);
+        background-repeat: no-repeat;
+        background-position: left;
+        background-size: 20px 20px;
+        background-color: beige;
+        transition: background 0.2s linear;      
+    }
+    
+    .btn:hover
+    {
+        background-color: cornflowerblue;
+    }
+    
+    input[type='checkbox'], input[type='radio']
+    {
+        display: none;
+      
+    }
+    
+    .label_checkbox::before
+    {
+        content: "";
+        display: inline-block;
+        position: relative;
+        margin-right: 10px;
+        height: 30px;
+        width: 30px;
+        background-color: antiquewhite;
+        border-radius: 30%;
+        border: 2px black solid;
+    }
+    
+    .label_radio::before
+    {
+        content: "";
+        display: inline-block;
+        position: relative;
+        margin-right: 10px;
+        height: 30px;
+        width: 30px;
+        background-color: antiquewhite;
+        border-radius: 50%;
+        border: 2px black solid;
+    }
+    
+    input[type='checkbox']:checked + .label_checkbox::before
+    {
+        background-image: url(checkmark.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    
+    input[type='radio']:checked + .label_radio::before
+    {
+        background-image: url(dot.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    
+</style>
+   
+<body>
+    no text
+    
+    <!-- ссылки -->
+    <div id="div_ref">
+    <a href=https://vk.com/doc20232844_569744596?hash=cc331afeb22f5325af&dl=ee1dda16b24303dbd8>Методичка</a>
+    </div>
+    
+    <!-- анкеры -->
+    <div id="div_anchors" >
+        <a class= "anchor" name="anchor2" >anchor2</a>
+    </div>
+    
+    <!-- картинки -->
+    <span id = "spn" >
+        <img id="its_norma" src="3.png" alt="Это норма! " width="192px" height="192px"> 
+    </span>
+    
+    <!-- Формы -->
+    <div id="forms">
+        <form name="form1">
+        <p>form1 <input name="name1">
+            
+            <input type="submit"></p>
+            
+            <input type="checkbox" id='checkbox1'>
+            <label class='label_checkbox' for='checkbox1'></label>
+            
+            <input type="radio" id='radio1'>
+            <label class='label_radio' for='radio1'></label>
+        </form>        
+    </div>
+</body>
+
+    
+
+
+<script src="script.js"></script>
+</html>
