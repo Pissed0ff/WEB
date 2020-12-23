@@ -1,0 +1,40 @@
+*{
+ margin: 5px;   
+}
+.layer{
+     text-align: center;   
+}
+
+table{
+    margin: auto;
+}
+tr{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;   
+}
+
+.cell{
+    border: 2px solid black;
+    z-index: 30; 
+    word-break:break-all;
+}
+td{
+    align-self: stretch;
+    flex-basis: auto;
+}
+
+.newForm{
+    opacity: 0;
+}
+.cell btn{
+    opacity: 0;
+}
+
+td:hover{
+    width: auto;
+    height: auto;
+}
+.cell:hover .newForm{
+        
+}
